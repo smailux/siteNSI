@@ -1,0 +1,41 @@
+
+html {
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(#ffffff, #565655) ;
+  } /*Mise en place d'un arrière-plan dégradé, esthétique */
+  
+body {
+    font-family: 'Times New Roman', Times, serif ;
+    line-height: 1.6;
+    margin: 40px auto;
+    max-width: 900px;
+    padding: 35px ;
+  } /*Mise en forme du texte en général */
+  
+
+h1{
+    color: #002476;
+}
+h2, h3 {
+    color: #7f0303;
+  } /*Couleur des titres*/
+  
+hr {
+    margin: 40px ;
+  } /*Marge pour les séparateurs de paragraphes */
+  
+footer {
+    margin-top: 40px;
+    padding: 20px ;
+    bottom: 0;
+    width: 100%;
+  }/*Mise en page du pied de la page*/
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 30%;
+    height: 200px;
+  }/*Régalge image, hauteur uniforme pour plus de confort visuel*/
